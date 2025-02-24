@@ -1,6 +1,7 @@
 import React from 'react';
 import { donationData } from '../constants/Donation';
 import { Link } from 'react-router-dom';
+import { volunteerImages } from '../constants/Volunteer';
 
 const Donation: React.FC = () => {
   const handleClick = () => {
@@ -34,21 +35,14 @@ const Donation: React.FC = () => {
                 <i className="fas fa-arrow-right text-2xl" />
               </div>
               <div className="bg-white border border-gray-300 rounded-full px-4 py-2 flex items-center shadow-lg">
-                <img
-                  alt="Volunteer 1"
-                  className="w-8 h-8 rounded-full border-2 border-white -ml-2"
-                  src="src\assets\Volunteer\volunteer-1.png"
-                />
-                <img
-                  alt="Volunteer 2"
-                  className="w-8 h-8 rounded-full border-2 border-white -ml-2"
-                  src="src\assets\Volunteer\volunteer-2.png"
-                />
-                <img
-                  alt="Volunteer 3"
-                  className="w-8 h-8 rounded-full border-2 border-white -ml-2"
-                  src="src\assets\Volunteer\volunteer-3.png"
-                />
+                {volunteerImages.map((volunteer) => (
+                  <img
+                    key={volunteer.id}
+                    alt={volunteer.alt}
+                    className="w-8 h-8 rounded-full border-2 border-white -ml-2"
+                    src={volunteer.src}
+                  />
+                ))}
                 <span className="ml-4 text-sm">Join the volunteer</span>
                 <span className="ml-2 bg-blue-500 text-white text-xs rounded-full px-2 py-1">
                   +1000
