@@ -1,6 +1,6 @@
 ---
 title: "DMP ’25 Week 03 Update by Harshit Verma"
-excerpt: ""
+excerpt: "Week 3 focused on refining the AI prompt for better debugging suggestions, exploring UI ideas for displaying tips, and testing Sugar AI integration with Pippy."
 category: "DEVELOPER NEWS"
 date: "2025-06-23"
 slug: "2025-06-23-dmp-25-therealharshit-week02"
