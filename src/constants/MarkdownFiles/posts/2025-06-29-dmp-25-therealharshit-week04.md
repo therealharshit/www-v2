@@ -11,7 +11,7 @@ image: "assets/Images/c4gt_DMP.png"
 
 <!-- markdownlint-disable -->
 
-# Week 02 Progress Report by Harshit Verma
+# Week 04 Progress Report by Harshit Verma
 
 **Project:** [LLM-powered Debugger for Pippy](https://github.com/sugarlabs/Pippy/issues/95)  
 **Mentors:** [Walter Bender](https://github.com/walterbender), [Ibiam Chihurumnaya](https://github.com/chimosky), [Kshitij Shah](https://github.com/kshitijdshah99)  
