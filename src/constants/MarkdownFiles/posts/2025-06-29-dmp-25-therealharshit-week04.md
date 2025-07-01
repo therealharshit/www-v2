@@ -3,7 +3,7 @@ title: "DMP ’25 Week 04 Update by Harshit Verma"
 excerpt: "Developed a working prototype."
 category: "DEVELOPER NEWS"
 date: "2025-06-29"
-slug: "2025-06-29-dmp-25-therealharshit-week02"
+slug: "2025-06-29-dmp-25-therealharshit-week04"
 author: "@/constants/MarkdownFiles/authors/harshit-verma.md"
 tags: "dmp25,sugarlabs,week04,therealharshit"
 image: "assets/Images/c4gt_DMP.png"
@@ -50,7 +50,9 @@ image: "assets/Images/c4gt_DMP.png"
   - Added simple formatting: newline, spacing, removed markdown syntax elements.
 
 ---
-### Complete Demo: [Watch here](https://drive.google.com/file/d/1Dzomam9dc3U4tHjHhYFGjRbs7-cwJHmM/view?usp=drive_link)
+
+### Complete Demo: &nbsp; [Watch here](https://drive.google.com/file/d/1Dzomam9dc3U4tHjHhYFGjRbs7-cwJHmM/view?usp=drive_link)
+
 ---
 
 ## Challenges & How I Overcame Them
