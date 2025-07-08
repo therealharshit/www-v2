@@ -1,6 +1,6 @@
 ---
 title: "DMP ’25 Week 05 Update by Harshit Verma"
-excerpt: "This week, I built a custom Markdown parser for VTE, began evaluating model performance, and discussed age appropriate debugging practices with mentors."
+excerpt: "This week, I built a custom Markdown parser for VTE (Virtual Terminal Emulator), began evaluating model performance, and discussed age appropriate debugging practices with mentors."
 category: "DEVELOPER NEWS"
 date: "2025-07-07"
 slug: "2025-07-07-dmp-25-therealharshit-week05"
@@ -22,7 +22,7 @@ image: "assets/Images/c4gt_DMP.png"
 
 ## Goals for This Week
 
-- **Goal 1:** Develop a custom Markdown parser for VTE.
+- **Goal 1:** Develop a custom Markdown parser for VTE (Virtual Terminal Emulator).
 - **Goal 2:** Begin model selection and optimization.
 - **Goal 3:** Discuss best debugging practices for children.
 
@@ -48,7 +48,7 @@ image: "assets/Images/c4gt_DMP.png"
 ## Challenges & How I Overcame Them
 
 - **Challenge:** Parsing Markdown in a VTE terminal widget.  
-  **Solution:** Since VTE terminal views don’t support rich text natively, I built a custom parser to translate basic Markdown into stylized terminal output using spacing, symbols, and ANSI codes.
+  **Solution:** Since VTE doesn't support rich text natively, I built a custom parser to translate basic Markdown into stylized terminal output using spacing, symbols, and ANSI codes.
 
 - **Challenge:** Running the model locally on CPU.  
   **Solution:** Faced performance limitations due to lack of GPU support. To address this, I explored the option of offloading model inference to AWS.
