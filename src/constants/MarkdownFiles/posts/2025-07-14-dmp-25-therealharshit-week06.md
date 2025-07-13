@@ -1,6 +1,6 @@
 ---
 title: "DMP ’25 Week 06 Update by Harshit Verma"
-excerpt: ""
+excerpt: "I added a new step to help students understand their code’s intent before debugging begins. I also worked on improving the terminal’s formatting and finalized Mistral 7B as the debugging model to be integrated with Sugar AI"
 category: "DEVELOPER NEWS"
 date: "2025-07-14"
 slug: "2025-07-14-dmp-25-therealharshit-week06"
@@ -66,9 +66,56 @@ image: "assets/Images/c4gt_DMP.png"
 - Work on preparing a presentation as part of DMP midterm evaluation.
 
 ---
+
+# Midterm Progress Report (6 Week Summary)
+
+## Project Objective
+
+The goal of this project is to enhance the Pippy learning environment by integrating an LLM-powered debugger. The debugger uses LLMs to provide readable, friendly suggestions for fixing broken code, helping young learners understand and improve their programs.
+
+---
+
+## Technical Implementation
+
+- Set up a **FastAPI backend** (`/debug`) to handle Python code input.
+
+- Integrated **Hugging Face model** for generating debugging tips.
+
+- Created **Run & Debug** buttons in Pippy’s GTK interface.
+
+- Connected **Pippy**  with the backend server via API.
+
+- Implemented a **Debug terminal** in the UI to display suggestions.
+
+- Developed a **basic Markdown parser** for formatted output in VTE.
+
+- Added a **Contextualization step** to show students what the code intends to do before debugging begins.
+
+---
+
+## Research & Design
+
+- Explored multiple **UI layouts** for debug output.
+
+- Tested different **LLM prompts** for clarity and simplicity.
+
+- Held discussions on **Debugging best practices for children**.
+
+- Evaluated models and selected **Mistral 7B** for deployment via Sugar AI.
+
+---
+
+## Project Demo
+ 
+Please watch the project demo to see the progress I've made so far.  
+[Watch here](https://drive.google.com/file/d/1-FHfsd0YiOZ2Fb7V7HeSswcga89jEvos/view?usp=drive_link)
+
+---
+
 ## Resources & References
 
 **Repository**
+- [Pippy](https://github.com/therealharshit/Pippy/tree/DMP2025/Pippy-Debugger)
 - [sugar-ai](https://github.com/sugarlabs/sugar-ai)
 - [pippy-debugger-server](https://github.com/therealharshit/pippy-debugger-server)
 
